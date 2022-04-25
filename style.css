@@ -1,0 +1,367 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: #FDE6E6;
+}
+
+.navbar h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.navbar ul {
+  display: block;
+  list-style-type: none;
+  margin-bottom: 0px;
+  padding-top: 18px;
+  font-family: 'Abhaya Libre', serif;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -50px;
+}
+
+.navbar a {
+  display: block;
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #B76B6B;
+}
+
+.active a {
+    color: #B76B6B;
+    text-decoration: underline;
+}
+
+/*General Bootstrap Alignment*/
+.row  {
+    text-align: center;
+}
+
+/*Homepage*/
+.homepageSentence {
+    position: relative;
+    text-align: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#changeWord {
+    color: #B76B6B;
+    font-weight: 800;
+}
+
+#changeWord:after {
+  content:"";
+  animation: changeWord 5s linear infinite;
+}
+
+@keyframes changeWord {
+  0% { content:"content writing"; }
+  20% { content:"design"; }
+  40% { content:"problem-solving"; }
+  60% { content: "research"; }
+  80% { content: "analytics"; }
+  100% { content:"content writing"; }
+}
+
+.helloImage img {
+    max-height: 664.5px;
+    max-width: 405px;
+}
+
+.helloText {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    text-align: left;
+}
+
+.helloText h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.helloText p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.pageLinks {
+    font-family: 'Abhaya Libre', serif;
+}
+
+.pageLinks h3 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.pageLinks img {
+    max-width: 55%;
+    max-height: 55%x;
+    margin-bottom: 50px;
+}
+
+.homepageLink {
+    text-decoration: none;
+    color: black;
+}
+
+.homepageLink:hover {
+    color: #B76B6B;
+}
+
+
+/*General Underline Styling*/
+hr {
+    height: 5px;
+    max-width: 10%;
+    background: #B76B6B;
+    margin: 0 auto;
+    border-color: #B76B6B;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    opacity: 100%;
+}
+
+/*General Page Title*/
+.pageTitle {
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    margin-top: 50px;
+}
+
+/*Portfolio Page*/
+.portfolioButton {
+  background: #B76B6B;
+  border: 1px #B76B6B;
+  border-radius: 10px;
+  display: block;
+  font-family: 'Abhaya Libre', serif;
+  text-align: center;
+  width: 60%;
+  padding: 14px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.portfolioButtons a {
+    text-decoration: none;
+}
+
+.portfolioButtons button:hover {
+    background-color: #E3B3B3;
+    transition: 0.3s;
+}
+
+.portfolioHeadings {
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    margin-top: 75px;
+}
+
+.left {
+    background-color: #FFFAFA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B76B6B;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.5s;
+}
+
+.right {
+    background-color: #FFFAFA;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #B76B6B;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.5s;
+}
+
+.left:hover {
+    transform: scale(1.05);
+}
+
+.right:hover {
+    transform: scale(1.05);
+}
+
+.left h5 {
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    color: #B76B6B;
+}
+
+.left h6 {
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+}
+
+.left p {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;
+}
+
+.right h5 {
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    color: #B76B6B;
+}
+
+.right h6 {
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+}
+
+.right p {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: black;
+}
+
+.projectLink:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+/*Resume Page*/
+iframe {
+     width: 75%;
+     height: 500px;
+     display: block;
+     margin: 0px auto;
+}
+
+/*About Page*/
+.aboutPicture {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutText {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.fact {
+    margin-top: 50px;
+    display: block;
+}
+
+.factText {
+    font-family: 'Encode Sans', sans-serif;
+    text-align: left;
+    color: #B76B6B;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 30px 0;
+    margin: auto;
+    width: 400px;
+}
+
+.factText h2 {
+    font-weight: 600;
+}
+
+.factText h3 {
+    font-weight: 600;
+}
+
+.factImage img {
+    width: 75%;
+    height: auto;
+}
+
+.aboutButton {
+  background: #E3B3B3;
+  border: 1px #E3B3B3;
+  border-radius: 10px;
+  display: block;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  max-width: 50%;
+  padding: 14px;
+  font-size: 25px;
+  margin: 30px auto;
+  color: #4D2626;
+}
+
+.contact {
+    font-family: 'Abhaya Libre', serif;
+    background-color: #B76B6B;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.contactHeading {
+    padding: 15px 0;
+}
+
+.contactHeading h2 {
+    font-size: 50px;
+}
+
+.contactInfo {
+    text-align: left;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.contactInfo h3 {
+    margin: 20px 0;
+}
+
+.contact i {
+    color: white;
+    margin-right: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    text-decoration: none;
+    color: #E3B3B3;
+}
