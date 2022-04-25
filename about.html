@@ -9,6 +9,10 @@
     <!--Regular CSS-->
     <link rel="stylesheet" href="style.css">
 
+    <!--JQuery/Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+
     <!--Abril Fatface Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +38,7 @@
 </head>
 <body>
     <div class="container-fluid navbar">
-        <h1><a href="homepage.html">Tia<br>Arcot</a></h1>
+        <h1><a href="index.html">Tia<br>Arcot</a></h1>
         <ul>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a  href="resume.html">Resume</a></li>
@@ -47,19 +51,19 @@
     <div class="container aboutText">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <div class="container d-flex align-items-center justify-content-center fact">
+    <div class="container fact">
         <div class="row text-center">
             <div class="col-lg factImage">
-                <img class="img-fluid" src="assets/skydiving.jpg" alt="Picture of Tia Skydiving"/>
+                <img class="img-fluid changingImage" src="assets/skydiving.jpg" alt="Picture of Tia Skydiving"/>
             </div>
             <div class="col-lg align-self-center factText">
                 <h2>&lt;fact class="fun"&gt;</h2>
-                <h3>&emsp;I have been skydiving before<br>&emsp;(at 14,000 feet!)</h3>
+                <h3 id="changingFact">&emsp;I have been skydiving before<br>&emsp;(at 14,000 feet!)</h3>
                 <h2>&lt;/fact&gt;</h2>
             </div>
         </div>
     </div>
-    <button type="button" class="aboutButton" onclick="formValidation()">Generate a new<br>fun fact!</button>
+    <button type="button" id="aboutButton">Generate a new<br>fun fact!</button>
     <div class="container-fluid contact">
         <div class="row text-center">
             <div class="col-lg-6 align-self-center contactHeading">
@@ -67,7 +71,6 @@
             </div>
             <div class="col-lg-6 align-self-center contactInfo">
                 <h3><a href="mailto:someone@yoursite.com"><i class="fa-solid fa-envelope"></i>tiameghana@yahoo.com</a></h3>
-                <h3><i class="fa-solid fa-phone"></i>(630) 520-1294</h3>
                 <h3><a href="https://www.linkedin.com/in/tiaarcot/" target="_blank"><i class="fa-brands fa-linkedin"></i>www.linkedin.com/in/tiaarcot</a></h3>
             </div>
         </div>
