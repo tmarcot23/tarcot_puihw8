@@ -18,10 +18,10 @@ $(document).ready(function(){
         "fact":"I love to crochet and knit!"
     },*/
     ];
-    $("#aboutButton").click(function(){
+    $(".aboutButton").click(function(){
         i = (i+1)%facts.length;
         console.log(facts[i]);
         $(".changingImage").attr('src', facts[i].image);
-        $("#changingFact").html(facts[i].fact);
+        $(".changingFact").html(facts[i].fact);
     });
 });

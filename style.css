@@ -307,7 +307,7 @@ iframe {
     height: auto;
 }
 
-#aboutButton {
+.aboutButton {
   background: #E3B3B3;
   border: 1px #E3B3B3;
   border-radius: 10px;
@@ -323,7 +323,7 @@ iframe {
   transition: 0.5s;
 }
 
-#aboutButton:hover {
+.aboutButton:hover {
     background-color: #FFDFDF;
 }
 
