@@ -1,3 +1,4 @@
+/*Removing and Adding Whitespace*/
 html,body {
     margin:0;
     padding:0;
@@ -202,10 +203,10 @@ hr {
 
 /*Portfolio Page*/
 .backToTop {
-    color: white;
-    background-color: #B76B6B;
+    color: #4D2626;
+    background-color: #E3B3B3;
     border-style: solid;
-    border-color: #B76B6B;
+    border-color: #E3B3B3;
     border-radius: 50%;
     font-size: 30px;
     position: fixed;
@@ -222,14 +223,10 @@ hr {
     z-index: 1;
 }
 
-.backToTop i {
-    color: white;
-    display: block;
-}
-
 .backToTop:hover, .backToTop:focus {
-   background-color:#B76B6B !important;
-   border-color: #B76B6B !important;
+    color: #4D2626;
+   background-color:#FBDADA !important;
+   border-color: #FBDADA !important;
    outline: none !important;
 }
 
