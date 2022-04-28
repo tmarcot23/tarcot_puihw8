@@ -8,18 +8,29 @@ $(document).ready(function(){
     },
     {
         "image": "assets/crochet.jpg",
-        "fact":"&emsp;I love to crochet and knit!",
+        "fact":"&emsp;I love to crochet and knit! This is<br>&emsp;my most recent project, a scarf",
         "caption": "Picture of Tia's crocheted scarf"
     },
     {
         "image": "assets/piano.jpg",
-        "fact":"&emsp;I play the piano, with my<br>&emsp;favorite piece being<br>&emsp;<i>Stickerbrush Symphony</i> from<br>&emsp;<i>Donkey Kong Country 2</i>",
+        "fact":"&emsp;I play the piano, with my favorite<br>&emsp;piece being <i>River Flows in You</i><br>&emsp;by Yiruma",
         "caption": "Picture of Tia playing the piano"
     },
-/*    {
-        "image": "assets/piano.jpg",
-        "fact":"I love to crochet and knit!"
-    },*/
+        {
+        "image": "assets/ogden.jpg",
+        "fact":"&emsp;My first job was at a local<br>&emsp;movie theater (which has now<br>&emsp;shut down :( )",
+        "caption": "Picture of Ogden 6 Theater"
+    },
+        {
+        "image": "assets/beatsaber.jpg",
+        "fact":"&emsp;I love to play Beat Saber<br>&emsp;on VR in my free time!",
+        "caption": "Picture of Beat Saber VR game"
+    },
+    {
+        "image": "assets/cat.jpg",
+        "fact":"&emsp;I don't have a pet, but I<br>&emsp;would like a cat in the future!<br>&emsp;This is my friend's cat Niu Niu",
+        "caption": "Picture of friend's cat"
+    }
     ];
     $(".aboutButton").click(function(){
         i = (i+1)%facts.length;
