@@ -1,4 +1,8 @@
 /*Fun Fact Generator*/
+
+/*Source: https://stackoverflow.com/questions/16549183/jquery-iterate-through-an-array-by-using-onclick*/
+/*Source: https://wpbeaches.com/swap-image-via-button-with-jquery/*/
+/*Source: https://stackoverflow.com/questions/56951465/how-to-replace-innerhtml-with-jquery*/
 $(document).ready(function(){
     var i = 0;
     var facts =[
@@ -43,6 +47,10 @@ $(document).ready(function(){
 });
 
 /*Back to Top Portfolio Page Button*/
+
+/*Source: https://stackoverflow.com/questions/14249998/jquery-back-to-top*/
+/*Source: https://deepmikoto.com/coding/3--how-to-create-back-to-top-button-using-jquery-and-some-css*/
+/*Source: https://electrictoolbox.com/jquery-hide-text-page-load-show-later/#:~:text=Document%20ready,-%24(document).&text=your%20Javascript%20files%3A-,%24(document).,loaded%20and%20will%20then%20hide*/
 $(document).ready(function(){
     $('.backToTop').hide();
     $(window).scroll(function(){
