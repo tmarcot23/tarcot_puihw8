@@ -1,3 +1,4 @@
+/*Fun Fact Generator*/
 $(document).ready(function(){
     var i = 0;
     var facts =[
@@ -41,6 +42,7 @@ $(document).ready(function(){
     });
 });
 
+/*Back to Top Portfolio Page Button*/
 $(document).ready(function(){
     $('.backToTop').hide();
     $(window).scroll(function(){
