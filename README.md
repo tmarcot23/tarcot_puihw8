@@ -1,9 +1,7 @@
 # tarcot_puihw8
 
 Video
-
-https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-
-Github-readme-md
+https://drive.google.com/file/d/1sbjPgy2zcVdVGD8f_R4Abio7A8ZX6SYh/view?usp=sharing
 
 Figma and Website Links
 - Website: https://tiaarcot.web.app/
