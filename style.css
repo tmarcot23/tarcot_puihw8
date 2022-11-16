@@ -797,3 +797,53 @@ iframe {
     padding-top: 5px;
     padding-bottom: 3px;
 }
+
+/*Video Game Sales Page*/
+.videoGameSalesLeft {
+    background-color: #FFFAFA;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B76B6B;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.5s;
+    margin-bottom: 15px;
+}
+
+.videoGameSalesRight {
+    background-color: #FFFAFA;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B76B6B;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.5s;
+    margin-bottom: 25px;
+}
+
+.videoGameSalesLeft:hover {
+    transform: scale(1.03);
+}
+
+.videoGameSalesRight:hover {
+    transform: scale(1.03);
+}
+
+.videoGameSalesLeft h5 {
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    color: #B76B6B;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.videoGameSalesRight h5 {
+    text-align: center;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    color: #B76B6B;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
